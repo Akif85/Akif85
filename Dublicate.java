@@ -25,8 +25,8 @@ public class Dublicate {
                 tekrarliElemanlar.add(numbers.get(i)); //duplicate olan bu eleman tekrarliElemanlar listesine eklenir
             }
         }
-        System.out.println("tekrarliElemanSayisi = " + tekrarliElemanSayisi); //tekrarliElemanSayisi = 2
-        System.out.println("tekrarliElemanlar = " + tekrarliElemanlar); //tekrarliElemanlar = [1, 3]
+        System.out.println("tekrarliElemanSayisi = " + tekrarliElemanSayisi); 
+        System.out.println("tekrarliElemanlar = " + tekrarliElemanlar);
         System.out.println(tekrarliElemanlar.size());
         System.out.println(tekrarliElemanlar.stream().toArray().length);
     }
